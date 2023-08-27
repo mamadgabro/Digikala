@@ -1,0 +1,102 @@
+div.shop-2{
+    width: 73%;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid var(--digi-borders);
+    text-align: center;
+}
+div.shop-2>div.shop-2-list{
+    text-align: right;
+    width: 325px;
+    height: 420px;
+    display: inline-block;
+    padding: 30px 30px 10px 20px ;
+    box-sizing: border-box;
+    margin-right: -4px;
+    border-left: 1px solid var(--digi-borders);
+}
+div.shop-2>div.shop-2-list:last-of-type{
+    border-left: unset;
+}
+div.shop-2>div.shop-2-list>div.shop-2-text{
+    width: inherit;
+    height: auto;
+
+}
+div.shop-2>div.shop-2-list>div.shop-2-text>h4{
+    font-size: 15px;
+    font-family: Yekan;
+    margin-bottom: 5px;
+}
+div.shop-2>div.shop-2-list>div.shop-2-text>p{
+    font-size: 12px;
+    color: var(--menu-text-color);
+    font-family: Yekan;
+}
+div.shop-2>div.shop-2-list>div.shop-2-img{
+    text-align: center;
+    margin-top: 10px;
+    width: 285px;
+    height: 295px;
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list{
+    display: inline-block;
+    width: 138px;
+    height: 147px;
+    margin-right: -5px;
+    margin-top: -5px;
+    text-align: center;
+    position: relative;
+
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list>img{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: calc(50% - 125px/2);
+    right: calc(50% - 125px/2);
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list:nth-of-type(1){
+    border: 1px solid var(--digi-borders);
+    border-top: unset;
+    border-right: unset;
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list:nth-of-type(2){
+    border: 1px solid var(--digi-borders);
+    border-top: unset;
+    border-left: unset;
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list:nth-of-type(4){
+    border: 1px solid var(--digi-borders);
+    border-bottom: unset;
+    border-left: unset;
+}
+div.shop-2>div.shop-2-list>div.shop-2-img>div.shop-2-img-list:nth-of-type(3){
+    border: 1px solid var(--digi-borders);
+    border-bottom: unset;
+    border-right: unset;
+}
+div.shop-2>div.shop-2-list>div.shop-2-more{
+    text-align: center;
+}
+div.shop-2>div.shop-2-list>div.shop-2-more>a{
+    font-family: Yekan;
+    font-size: 14px;
+    color: var(--digikala-aqua-color);
+    text-decoration: none;
+}
+div.shop-2>div.shop-2-list:nth-of-type(1){
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+div.shop-2>div.shop-2-list:nth-of-type(4){
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+div.shop-2>div.shop-2-list:nth-of-type(2){
+    width: 360px;
+}
+div.shop-2>div.shop-2-list:nth-of-type(3){
+    width: 360px;
+}

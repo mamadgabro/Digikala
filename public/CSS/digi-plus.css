@@ -1,0 +1,101 @@
+div.digi-plus{
+    width: 73%;
+    height: 390px;
+    background-color: var(--digi-plus);
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+div.digi-plus>div.digi-plus-list{
+    display: inline-block;
+    width: 450px;
+    height: 355px;
+    background-color: white;
+    vertical-align: top;
+}
+div.digi-plus>div.digi-plus-list:first-of-type{
+    background-color: var(--digi-plus);
+    background-image: url(../Images/digi-plus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    vertical-align: top;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div.digi-plus>div.digi-plus-list:nth-of-type(2){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digi-plus>div.digi-plus-list:nth-of-type(3){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.digi-plus>div.digi-plus-list:first-of-type>div.digi-plus-text{
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    font-family: Yekan;
+}
+div.digi-plus>div.digi-plus-list:first-of-type>div.digi-plus-join>a{
+    width: 100px;
+    height: 35px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-family: Yekan;
+    margin-top: 20px;
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1{
+    width: 100%;
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1>div.gift{
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1>div.gift>div.gift-svg>svg{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: var(--digi-plus);
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1>div.gift>div.gift-svg{
+    display: inline-block;
+
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1>div.gift>div.gift-text{
+    display: inline-block;
+    font-weight: 600;
+    font-family: Yekan;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box1>div.gift>div.more{
+    display: inline-block;
+    font-family: Yekan;
+    font-weight: 600;
+    margin-right: 220px;
+    font-size: 14px;
+    color: var(--digi-plus);
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box2>div.plus-img{
+    margin: 15px 15px 10px 10px;
+    display: inline-block;
+    width: 116px;
+    height: 121px;
+}
+div.digi-plus>div.digi-plus-list>div.digi-plus-box2>div.plus-img>img{
+    width: 116px;
+    height: 116px;
+
+}

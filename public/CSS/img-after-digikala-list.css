@@ -1,0 +1,16 @@
+div.img-after-digikala-list{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+div.img-after-digikala-list>.after-list{
+    display: inline-block;
+
+}
+div.img-after-digikala-list>.after-list>img{
+    width: 36vw;
+    border-radius: 20px;    
+    margin-right: 5px;
+    margin-left: 5px;
+}

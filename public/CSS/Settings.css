@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Yekan;
+  src: url(../Fonts/IRANYekanWeb.eot);
+  src: url(../Fonts/IRANYekanWeb.woff);
+  src: url(../Fonts/IRANYekanWeb.woff2);
+  src: url(../Fonts/IRANYekanWeb.ttf);
+}
+body {
+  direction: rtl;
+}
+:root {
+  --scrollbar-thump-color: #c3c3cd;
+  --scrollbar-track-color: #f1f2f4;
+
+  --searchbar-color: #f1f2f4;
+  --menu-text-color: #9e9fb0;
+  --web-text-color: #000000;
+  --discount-color: #9e9fb0;
+  --numbers-color: #19bfd3;
+  --watch-more-color: #19bfd3;
+  --digi-red-color: #ee384e;
+  --digi-borders: #e0e0e6;
+  --digikala-aqua-color: #19bfd3;
+  --digi-plus: #941B80;
+  --svg-top: #3f4162
+}

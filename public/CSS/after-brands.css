@@ -1,0 +1,16 @@
+div.img-after-brands-bar{
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+    text-align: center;
+}
+div.img-after-brands-bar>.after-bar{
+    display: inline-block;
+
+}
+div.img-after-brands-bar>.after-bar>img{
+    width: 36vw;
+    border-radius: 20px;    
+    margin-right: 5px;
+    margin-left: 5px;
+}

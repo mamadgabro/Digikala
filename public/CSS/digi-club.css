@@ -1,0 +1,66 @@
+div.digi-club{
+    width: 73%;
+    height: 90px;
+    background-image: linear-gradient(to left,#007295,#35A6C8);
+    border-radius: 20px;
+    margin: 15px auto;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+}
+div.digi-club>div.digi-club-list{
+    width: 260px;
+    height: 65px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 2px;
+    position: relative;
+    padding: 2px;
+    box-sizing: border-box;
+}
+div.digi-club>div.digi-club-list:nth-of-type(1){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digi-club>div.digi-club-list:nth-of-type(3){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.digi-club>div.digi-club-list>div.digi-club-img{
+    display: inline-block;
+}
+div.digi-club>div.digi-club-list>div.digi-club-img>img{
+    width: 155px;
+    height: 60px;
+    object-fit: cover;
+}
+div.digi-club>div.digi-club-list>div.digi-club-text{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 65px;
+    vertical-align: middle;
+}
+div.digi-club>div.digi-club-list>div.digi-club-text>p{
+    font-family: Yekan;
+    font-size: 13px;
+    margin-right: 20px;
+}
+div.digi-club>div.digi-club-list>div.digi-club-text>p.mar{
+    margin-left: 10px;
+}
+div.digi-club>div.digi-club-list>div.digi-club-text>svg{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    fill: var(--digikala-aqua-color);
+}
+div.digi-club>div.digi-club-list>div.digi-club-text>svg.mar{
+    right: 12px;
+}
+div.digi-club>div.digi-club-list>img.digi-club-logo{
+    position: absolute;
+    top: 15px;
+    left: 670px;
+}

@@ -1,0 +1,108 @@
+div.wondermarket {
+  width: 72%;
+  height: 110px;
+  background-color: #eef1f0;
+  margin: 15px auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+div.wondermarket > div.wondermaket-container1 {
+  width: 40%;
+  display: inline-block;
+  padding: 22px 30px 20px 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  cursor: pointer;
+}
+div.wondermarket > div.wondermaket-container1 > div.wondermarket1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+div.wondermarket > div.wondermaket-container1 > div.wondermarket2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+div.wondermarket > div.wondermaket-container1 > div.wondermarket3 {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #39ae00;
+  color: white !important;
+  font-family: Yekan !important;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+}
+div.wondermarket > div.wondermaket-container2 {
+  display: inline-block;
+  padding: 18px 0 20px 0;
+  box-sizing: border-box;
+  margin-right: 40px;
+  height: auto;
+  vertical-align: top;
+}
+div.wondermarket
+  > div.wondermaket-container2
+  > div.wondermaket-list
+  > div.wondermarketitems {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 3px 0 3px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  vertical-align: top;
+}
+div.wondermarket
+  > div.wondermaket-container2
+  > div.wondermaket-list
+  > div.wondermarketitems
+  > div.wondermarketitems-dis {
+  width: 35px;
+  height: 20px;
+  background-color: var(--digi-red-color);
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  line-height: 23px;
+  text-align: center;
+  font-family: Yekan;
+  font-size: 13px;
+  font-weight: bold;
+}
+div.wondermarket
+  > div.wondermaket-container2
+  > div.wondermaket-list
+  > div.wondermarketitems
+  > img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 25%;
+  cursor: pointer;
+}
+div.wondermarket > div.wondermaket-container2 >div.wondermaket-list> div.moreitems {
+  width: 145px;
+  height: 50px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 13px ;
+  margin-right: 60px;
+  cursor: pointer;
+  color: #39AE00;
+  font-family: Yekan;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: center;
+}

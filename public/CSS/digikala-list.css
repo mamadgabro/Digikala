@@ -1,0 +1,35 @@
+div.digikala-list{
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+div.digikala-list>h3{
+    font-size: 23px;
+    font-family: Yekan;
+    font-weight: 500;
+}
+div.digikala-list>div.list-item{
+    display: inline-block;
+}
+div.digikala-list>div.list-item>div.list-items{
+    border-radius: 20%;
+    display: inline-block;
+    margin: 30px 0;
+    cursor: pointer
+ 
+}
+div.digikala-list>div.list-item>div.list-items>img{
+    width: 110px;
+    height: 110px;
+    margin: 0 30px;
+}
+div.digikala-list>div.list-item>div.list-items>img.card-img{
+    width: 130px;
+    height: 80px;
+    border-radius: 0;
+}
+div.digikala-list>div.list-item>div.list-items>p{
+    font-family: Yekan;
+    font-size: 13px;
+}
