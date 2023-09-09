@@ -21,7 +21,6 @@ div.brands > div.brand-text > div.star-icon {
   position: absolute;
   right: 22%;
   top: 45%;
-
 }
 div.brands > div.brand-text > div.star-text{
     font-family: Yekan;
@@ -36,6 +35,7 @@ div.brands>div.brand-bar>div.swiper>div.swiper-wrapper>div.swiper-slide{
     width: 145px;
     height: 145px;
     border-left: 1px solid var(--digi-borders);
+    cursor: pointer;
 }
 div.brands>div.brand-bar>div.swiper>div.swiper-wrapper>div.swiper-slide:last-of-type{
     border-left: unset;

@@ -1,0 +1,108 @@
+div.support-container{
+    width: 60px;
+    height: 60px;
+    background-color: var(--digi-red-color);
+    position: fixed;
+    top: 90%;
+    right: 95%;
+    z-index: 10;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+}
+div.support-container>label>svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+    cursor: pointer;
+}
+div.support-container>div.support-box{
+    display: none;
+    width: 360px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    bottom: 110%;
+    left: 0;
+    border-radius: 20px;
+    border: 1px solid var(--digi-red-color);
+}
+div.support-container>div.support-box>div.head{
+    background-color: var(--digi-red-color);
+    width: inherit;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    text-align: right;
+}
+div.support-container>div.support-box>div.head>span{
+    font-family: Yekan;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 60px;
+    vertical-align: top;
+}
+div.support-container>div.support-box>div.head>label>svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+    cursor: pointer;
+    vertical-align: middle;
+    position: relative;
+    right: 53%;
+    padding-bottom: 10px;
+}
+#supp:checked ~ div.support-box{
+    display: block;
+}
+#supp , #supp-close{
+    display: none;
+}
+div.support-container>div.support-box>div.body{
+    overflow-y: scroll;
+    height: 530px;
+}
+div.support-container>div.support-box>div.body>div.explain{
+    font-family: Yekan;
+    font-size: 19px;
+    text-align:right;
+    padding-right: 10px;
+    font-weight: bold;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+div.support-container>div.support-box>div.body>div.explain-2{
+    font-family: Yekan;
+    font-size: 14px;
+    text-align:right;
+    padding-right: 10px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+.collapsible {
+    color: var(--web-text-color);
+    cursor: pointer;
+    padding: 18px;
+    width: 96%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid var(--digi-borders);
+    border-radius: 10px;
+    background-color: white;
+    font-family: Yekan;
+  }
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: Yekan;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: justify;
+  }

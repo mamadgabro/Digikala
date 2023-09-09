@@ -33,3 +33,6 @@
   color: black !important;
   font-weight: bold !important;
 }
+div.swiper-pagination>span{
+  background-color: white !important;
+}
